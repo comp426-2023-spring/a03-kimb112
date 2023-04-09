@@ -5,7 +5,6 @@ import minimist from "minimist";
 const args = minimist(process.argv.slice(2));
 
 //help text
-
 if (args.h || args.help) {
     console.log(`Usage: node-rps [SHOT]
     Play Rock Paper Scissors (RPS)
